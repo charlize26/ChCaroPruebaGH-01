@@ -1,2 +1,2 @@
-# ChCaroPruebaGH-01
-Primera prueba de configuración SDS con Unity y Git.
+# Snapdragon SDK Configuration for Unity
+Desgraciada-mente no hay información.
