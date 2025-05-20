@@ -1,0 +1,160 @@
+/*
+ * Copyright (c) Qualcomm Technologies, Inc. and/or its subsidiaries.
+ * All rights reserved.
+ * Confidential and Proprietary - Qualcomm Technologies, Inc.
+ */
+
+.scroll-box {
+    width: 100%;
+    height: 100%;
+}
+
+.root-container {
+    width: 950px;
+    height: 800px;
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    padding: 20px;
+}
+
+.platform-row-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.platform-label-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.platform-icon {
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+}
+
+.platform-label {
+    font-size: 18px;
+    -unity-font-style: bold;
+    flex: 1;
+}
+
+.platform-picker {
+    font-size: 16px;
+    width: 40%;
+    margin-bottom: 20px;
+}
+
+.unity-enum-field__input {
+    -unity-font-style: italic;
+    width: 115px;
+    padding-left: 6px;
+}
+
+.main-container {
+    flex: 1;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.main-container-dark {
+    background-color: #2d2d2d;
+}
+
+.main-container-light {
+    background-color: #b0b0b0;
+}
+
+.settings-toggle {
+    font-size: 14px;
+}
+
+.unity-toggle__text {
+    margin-left: 6px;
+}
+
+/* Remove the "List is Empty" message that shows up when the list is first created */
+.unity-list-view__empty-label {
+    display: none;
+}
+
+.row-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.wizard-button {
+    -unity-font-style: bold;
+    padding: 8px 16px;
+    border-width: 0;
+}
+
+.docs-button {
+    -unity-font-style: italic;
+    padding: 8px 16px;
+    border-width: 0;
+}
+
+.wizard-text {
+    padding: 5px;
+    font-size: 14px;
+}
+
+.spacer {
+    flex: 1;
+}
+
+.step-indicator {
+    font-size: 14px;
+    -unity-font-style: bold;
+    padding: 0 10px;
+}
+
+.title-label {
+    font-size: 18px;
+    -unity-font-style: bold;
+    padding: 10px;
+}
+
+.help-box {
+    margin: 5px;
+    padding: 8px;
+}
+
+.unity-help-box__label {
+    font-size: 12px;
+    -unity-font-style: bold;
+}
+
+.buttons-container {
+    padding: 12px;
+    flex: 1;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.docs-container {
+    margin-top: 5px;
+}
+
+.sample-name {
+    font-size: 16px;
+    -unity-font-style: bold;
+    padding: 10px;
+}
+
+.sample-description {
+    font-size: 14px;
+    padding-left: 10px;
+}

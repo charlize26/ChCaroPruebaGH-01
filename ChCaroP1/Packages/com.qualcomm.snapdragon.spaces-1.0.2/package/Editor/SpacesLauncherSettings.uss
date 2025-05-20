@@ -1,0 +1,37 @@
+.main-container {
+    padding: 8px;
+}
+
+.title {
+    font-size: 15px;
+    -unity-font-style: bold;
+    padding-bottom: 8px;
+}
+
+.unity-help-box {
+    padding: 8px;
+}
+
+.unity-help-box__label {
+    font-size: 12px;
+    padding: 8px;
+}
+
+.properties-container {
+    padding: 8px;
+}
+
+.row-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.grid-title {
+    font-size: 13px;
+    -unity-font-style: bold;
+}
+
+.grid-cell {
+    padding: 5px;
+    width: 30%;
+}
