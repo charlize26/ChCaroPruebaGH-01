@@ -1,9 +1,9 @@
 {
   "dependencies": {
     "com.qualcomm.snapdragon.spaces": {
-      "version": "file:com.qualcomm.snapdragon.spaces-1.0.2/package",
+      "version": "file:C:/Users/MULTIMEDIA/Downloads/VRMR_Snapdragon_Spaces_SDK_1_0_2_for_Unity (1)/Unity Package/com.qualcomm.snapdragon.spaces-1.0.2.tgz",
       "depth": 0,
-      "source": "local",
+      "source": "local-tarball",
       "dependencies": {
         "com.unity.xr.openxr": "1.10.0",
         "com.unity.xr.arfoundation": "5.1.1",
